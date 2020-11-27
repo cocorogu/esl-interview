@@ -1,0 +1,11 @@
+[debug] > Exec(run, None, None)
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+[error] I:\scala-workplace\esl-interview\src\main\scala\Main.scala:41:34: could not find implicit value for parameter instance: io.circe.Encoder[com.twitter.util.Future[com.twitter.finagle.http.Response]]
+[error]   println(response.asJson(Encoder[Future[http.Response]]))
+[error]                                  ^
+[error] one error found
+[error] (Compile / compileIncremental) Compilation failed
+[error] Total time: 1 s, completed Nov 27, 2020 10:00:24 AM
+[debug] > Exec(idea-shell, None, None)

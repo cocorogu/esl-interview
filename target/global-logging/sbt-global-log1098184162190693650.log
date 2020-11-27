@@ -1,0 +1,109 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 2 __20e634b4-5d7a-4ad7-b3c3-7e6fb1de32b5, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(bspWorkspaceBuildTargets, Some(__20e634b4-5d7a-4ad7-b3c3-7e6fb1de32b5), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: bspWorkspaceBuildTargets[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[33mwarn[0m] [0m[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0m	Note: Unresolved dependencies path:[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":2,"message":"\n\tNote: Unresolved dependencies path:"})[0m
+[0m[[0m[31merror[0m] [0m[0msbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.twitter:finatra-http_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\com.twitter\finatra-http_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.twitter:finchx-core_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.twitter:finchx-circe_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading io.circe:circe-parser_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading io.circe:circe-generic_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.Either$LeftProjection.map(Either.scala:573)[0m
+[0m[[0m[31merror[0m] [0m[0m	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.util.control.Exception$Catch.apply(Exception.scala:228)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3485)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\io.circe\\circe-core_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom\nError downloading com.twitter:finatra-http_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\com.twitter\\finatra-http_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom\nError downloading com.twitter:finchx-core_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\com.twitter\\finchx-core_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom\nError downloading com.twitter:finchx-circe_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\com.twitter\\finchx-circe_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom\nError downloading io.circe:circe-parser_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\io.circe\\circe-parser_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom\nError downloading io.circe:circe-generic_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\io.circe\\circe-generic_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom\r\n\tat lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)\r\n\tat lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)\r\n\tat scala.util.Either$LeftProjection.map(Either.scala:573)\r\n\tat lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)\r\n\tat sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)\r\n\tat sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)\r\n\tat sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)\r\n\tat sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)\r\n\tat sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)\r\n\tat scala.util.control.Exception$Catch.apply(Exception.scala:228)\r\n\tat sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)\r\n\tat sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)\r\n\tat sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)\r\n\tat sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)\r\n\tat sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3485)\r\n\tat scala.Function1.$anonfun$compose$1(Function1.scala:49)\r\n\tat sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)\r\n\tat sbt.std.Transform$$anon$4.work(Transform.scala:68)\r\n\tat sbt.Execute.$anonfun$submit$2(Execute.scala:282)\r\n\tat sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)\r\n\tat sbt.Execute.work(Execute.scala:291)\r\n\tat sbt.Execute.$anonfun$submit$1(Execute.scala:282)\r\n\tat sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)\r\n\tat sbt.CompletionService$$anon$2.call(CompletionService.scala:64)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)"})[0m
+[0m[[0m[31merror[0m] [0m[0m([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.twitter:finatra-http_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\com.twitter\finatra-http_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.twitter:finchx-core_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading com.twitter:finchx-circe_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading io.circe:circe-parser_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom[0m
+[0m[[0m[31merror[0m] [0m[0mError downloading io.circe:circe-generic_2.13:20.10.0[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  Not found[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.13\20.10.0\ivys\ivy.xml[0m
+[0m[[0m[31merror[0m] [0m[0m  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(\u001b[31mupdate\u001b[0m) sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\io.circe\\circe-core_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom\nError downloading com.twitter:finatra-http_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\com.twitter\\finatra-http_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom\nError downloading com.twitter:finchx-core_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\com.twitter\\finchx-core_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom\nError downloading com.twitter:finchx-circe_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\com.twitter\\finchx-circe_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom\nError downloading io.circe:circe-parser_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\io.circe\\circe-parser_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom\nError downloading io.circe:circe-generic_2.13:20.10.0\r\n  Not found\r\n  Not found\r\n  not found: C:\\Users\\Coco\\.ivy2\\local\\io.circe\\circe-generic_2.13\\20.10.0\\ivys\\ivy.xml\r\n  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 0 s, completed Nov 27, 2020 1:38:11 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 2, Some(2), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: build/exit: JsonRpcNotificationMessage(2.0, build/exit, null)[0m

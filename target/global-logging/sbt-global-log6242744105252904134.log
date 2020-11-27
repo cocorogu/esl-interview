@@ -1,0 +1,65 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtMapExec 10 __d96053d6-6ad3-45d8-8bbd-ba3597e6725c, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(bspScalaTestClasses file:/I:/scala-workplace/esl-interview/#esl-interview/Test, Some(__d96053d6-6ad3-45d8-8bbd-ba3597e6725c), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: bspScalaTestClasses[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"13","parents":[]},"eventTime":1606435871031,"message":"Compiling esl-interview","dataKind":"compile-task","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"}}})[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 3 Scala sources to I:\\scala-workplace\\esl-interview\\target\\scala-2.11\\classes ..."})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/ExampleApplication.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":16,"character":37},"end":{"line":16,"character":38}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : String(\"hello\")\n required: ?{def apply: ?}\nNote that implicit conversions are not applicable because they are ambiguous:\n both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps\n and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]\n are possible conversion functions from String(\"hello\") to ?{def apply: ?}"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mI:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:38: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String("hello")[0m
+[0m[[0m[31merror[0m] [0m[0m required: ?{def apply: ?}[0m
+[0m[[0m[31merror[0m] [0m[0mNote that implicit conversions are not applicable because they are ambiguous:[0m
+[0m[[0m[31merror[0m] [0m[0m both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps[0m
+[0m[[0m[31merror[0m] [0m[0m and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil][0m
+[0m[[0m[31merror[0m] [0m[0m are possible conversion functions from String("hello") to ?{def apply: ?}[0m
+[0m[[0m[31merror[0m] [0m[0m  def hello: Endpoint[Message] = get("hello") {[0m
+[0m[[0m[31merror[0m] [0m[0m                                     ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"I:\\scala-workplace\\esl-interview\\src\\main\\scala\\ExampleApplication.scala:17:38: type mismatch;\n found   : String(\"hello\")\n required: ?{def apply: ?}\nNote that implicit conversions are not applicable because they are ambiguous:\n both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps\n and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]\n are possible conversion functions from String(\"hello\") to ?{def apply: ?}"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  def hello: Endpoint[Message] = get(\"hello\") {"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                                     ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/ExampleApplication.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":16,"character":33},"end":{"line":16,"character":34}},"severity":1,"source":"sbt","message":"not found: value get"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mI:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:34: not found: value get[0m
+[0m[[0m[31merror[0m] [0m[0m  def hello: Endpoint[Message] = get("hello") {[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"I:\\scala-workplace\\esl-interview\\src\\main\\scala\\ExampleApplication.scala:17:34: not found: value get"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  def hello: Endpoint[Message] = get(\"hello\") {"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                                 ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/services/ExampleService.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":7,"character":27},"end":{"line":7,"character":28}},"severity":1,"source":"sbt","message":"not found: type Message"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mI:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:8:28: not found: type Message[0m
+[0m[[0m[31merror[0m] [0m[0m  def getMessage(): Future[Message] = {[0m
+[0m[[0m[31merror[0m] [0m[0m                           ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"I:\\scala-workplace\\esl-interview\\src\\main\\scala\\services\\ExampleService.scala:8:28: not found: type Message"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  def getMessage(): Future[Message] = {"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                           ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/ExampleApplication.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":25,"character":4},"end":{"line":25,"character":5}},"severity":1,"source":"sbt","message":"not found: value log"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mI:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:26:5: not found: value log[0m
+[0m[[0m[31merror[0m] [0m[0m    log.info(s"Serving the application on port ${port()}")[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"I:\\scala-workplace\\esl-interview\\src\\main\\scala\\ExampleApplication.scala:26:5: not found: value log"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    log.info(s\"Serving the application on port ${port()}\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"    ^"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/services/ExampleService.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":5,"character":16},"end":{"line":5,"character":17}},"severity":1,"source":"sbt","message":"not found: value Message"}],"reset":false})[0m
+[0m[[0m[31merror[0m] [0m[0mI:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:6:17: not found: value Message[0m
+[0m[[0m[31merror[0m] [0m[0m  val message = Message("Hello, world!")[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"I:\\scala-workplace\\esl-interview\\src\\main\\scala\\services\\ExampleService.scala:6:17: not found: value Message"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"  val message = Message(\"Hello, world!\")"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"                ^"})[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"5 errors found"})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/ExampleApplication.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":16,"character":37},"end":{"line":16,"character":38}},"severity":1,"source":"sbt","message":"type mismatch;\n found   : String(\"hello\")\n required: ?{def apply: ?}\nNote that implicit conversions are not applicable because they are ambiguous:\n both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps\n and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]\n are possible conversion functions from String(\"hello\") to ?{def apply: ?}"},{"range":{"start":{"line":16,"character":33},"end":{"line":16,"character":34}},"severity":1,"source":"sbt","message":"not found: value get"},{"range":{"start":{"line":25,"character":4},"end":{"line":25,"character":5}},"severity":1,"source":"sbt","message":"not found: value log"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/models/Message.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/services/ExampleService.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[{"range":{"start":{"line":7,"character":27},"end":{"line":7,"character":28}},"severity":1,"source":"sbt","message":"not found: type Message"},{"range":{"start":{"line":5,"character":16},"end":{"line":5,"character":17}},"severity":1,"source":"sbt","message":"not found: value Message"}],"reset":true})[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"13","parents":[]},"eventTime":1606435871611,"message":"Compiled esl-interview","status":2,"dataKind":"compile-report","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"errors":5,"warnings":0,"time":580}})[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / \u001b[31mcompileIncremental\u001b[0m) Compilation failed"})[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 1 s, completed Nov 27, 2020 2:11:11 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtReportResult 10, Some(10), Some(CommandSource(network-1)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mjsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mUnhandled notification received: build/exit: JsonRpcNotificationMessage(2.0, build/exit, null)[0m

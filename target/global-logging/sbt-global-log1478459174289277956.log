@@ -1,0 +1,8 @@
+[debug] > Exec(last Compile, None, None)
+[error] Not a valid project ID: Compile
+[error] Expected ':'
+[error] Expected '/'
+[error] Not a valid key: Compile (similar: compile, compilers, compileJava)
+[error] last Compile
+[error]             ^
+[debug] > Exec(idea-shell, None, None)

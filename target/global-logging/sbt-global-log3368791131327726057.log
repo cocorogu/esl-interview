@@ -1,0 +1,7 @@
+[debug] > Exec(__runWatch console0, Some(e330b5b8-018f-41ca-ad83-d1d0b3552889), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...

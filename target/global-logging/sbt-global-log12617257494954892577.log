@@ -1,0 +1,5 @@
+[debug] > Exec(updateSbtClassifiers, None, None)
+[debug] Evaluating tasks: updateSbtClassifiers
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[success] Total time: 2 s, completed Nov 27, 2020, 2:01:20 AM
+[debug] > Exec(idea-shell, None, None)

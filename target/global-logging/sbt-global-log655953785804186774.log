@@ -1,0 +1,21 @@
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(sbtMapExec 7 __6ec193d4-aba6-48ae-b8e9-73a2db2f64e2, None, None)
+[debug] > Exec(bspScalaMainClasses file:/I:/scala-workplace/esl-interview/#esl-interview/Test file:/I:/scala-workplace/esl-interview/#esl-interview/Compile, Some(__6ec193d4-aba6-48ae-b8e9-73a2db2f64e2), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})
+[debug] Evaluating tasks: bspScalaMainClasses
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"4","parents":[]},"eventTime":1606437212730,"message":"Compiling esl-interview","dataKind":"compile-task","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/models/Message.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/services/ExampleService.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/ExampleApplication.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"4","parents":[]},"eventTime":1606437212778,"message":"Compiled esl-interview","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"errors":0,"warnings":0,"time":48}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"5","parents":[]},"eventTime":1606437212786,"message":"Compiling esl-interview-test","dataKind":"compile-task","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Test"}}})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"5","parents":[]},"eventTime":1606437212800,"message":"Compiled esl-interview-test","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Test"},"errors":0,"warnings":0,"time":14}})
+[success] Total time: 0 s, completed Nov 27, 2020 2:33:32 AM
+[debug] > Exec(sbtCompleteExec 7, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(sbtReportResult 7, Some(7), Some(CommandSource(network-1)))
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":4,"message":"Processing"})
+[debug] unmatched json response for requestId Some(7): {"status":"Done","channelName":"network-1","execId":"7","commandQueue":["shell"],"exitCode":0}
+[debug] > Exec(shell, None, None)

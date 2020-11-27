@@ -1,0 +1,10 @@
+[debug] > Exec(libraryDependencies, None, None)
+[debug] Evaluating tasks: libraryDependencies
+[info] * org.scala-lang:scala-library:2.11.0
+[info] * com.twitter:finagle-http:20.10.0
+[info] * com.twitter:finatra-http:20.10.0
+[info] * com.github.finagle:finch-core:0.22.0
+[info] * com.github.finagle:finch-circe:0.22.0
+[info] * io.circe:circe-generic:0.9.0
+[info] * org.scalatest:scalatest:3.0.5:test
+[debug] > Exec(idea-shell, None, None)

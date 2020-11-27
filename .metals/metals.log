@@ -1,0 +1,718 @@
+2020.11.27 01:37:56 INFO  Started: Metals version 0.9.7 in workspace 'I:\scala-workplace\esl-interview' for client vscode.
+2020.11.27 01:37:56 INFO  time: initialize in 0.43s
+2020.11.27 01:37:57 INFO  Attempting to connect to the build server...
+2020.11.27 01:37:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 01:38:10 INFO  time: connected to build server in 12s
+2020.11.27 01:38:10 INFO  Connected to Build server v1.4.4
+2020.11.27 01:38:10 WARN  
+	Note: Unresolved dependencies path:
+2020.11.27 01:38:10 ERROR sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom
+Error downloading com.twitter:finatra-http_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finatra-http_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-circe_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom
+Error downloading io.circe:circe-parser_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom
+Error downloading io.circe:circe-generic_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom
+	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)
+	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)
+	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)
+	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3485)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.11.27 01:38:10 ERROR ([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom
+Error downloading com.twitter:finatra-http_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finatra-http_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-circe_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom
+Error downloading io.circe:circe-parser_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom
+Error downloading io.circe:circe-generic_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom
+2020.11.27 01:38:10 INFO  Processing
+2020.11.27 01:38:10 WARN  
+	Note: Unresolved dependencies path:
+2020.11.27 01:38:10 ERROR sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom
+Error downloading com.twitter:finatra-http_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finatra-http_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-circe_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom
+Error downloading io.circe:circe-parser_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom
+Error downloading io.circe:circe-generic_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom
+	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)
+	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)
+	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)
+	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3485)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.11.27 01:38:10 ERROR ([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading io.circe:circe-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.13/20.10.0/circe-core_2.13-20.10.0.pom
+Error downloading com.twitter:finatra-http_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finatra-http_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finatra-http_2.13/20.10.0/finatra-http_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-core_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.13/20.10.0/finchx-core_2.13-20.10.0.pom
+Error downloading com.twitter:finchx-circe_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.13/20.10.0/finchx-circe_2.13-20.10.0.pom
+Error downloading io.circe:circe-parser_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.13/20.10.0/circe-parser_2.13-20.10.0.pom
+Error downloading io.circe:circe-generic_2.13:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.13\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.13/20.10.0/circe-generic_2.13-20.10.0.pom
+2020.11.27 01:38:10 INFO  Processing
+2020.11.27 01:38:11 INFO  Disconnecting from sbt session...
+2020.11.27 01:38:11 ERROR Failed to connect with build server, no functionality will work.
+java.lang.NullPointerException
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionJavaList.map(MetalsEnrichments.scala:199)
+	at scala.meta.internal.metals.MetalsLanguageServer$.$anonfun$importedBuild$1(MetalsLanguageServer.scala:2460)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.27 01:38:11 INFO  Shut down connection with build server.
+2020.11.27 01:38:53 WARN  no build target for: I:\scala-workplace\esl-api-ranking\build.sbt
+2020.11.27 01:38:55 INFO  no build target: using presentation compiler with only scala-library
+2020.11.27 01:39:04 INFO  shutting down Metals
+2020.11.27 01:39:49 INFO  Started: Metals version 0.9.7 in workspace 'I:\scala-workplace\esl-interview' for client vscode.
+2020.11.27 01:39:49 INFO  time: initialize in 0.44s
+2020.11.27 01:39:50 INFO  Attempting to connect to the build server...
+2020.11.27 01:39:50 WARN  no build target for: I:\scala-workplace\esl-api-ranking\build.sbt
+2020.11.27 01:39:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 01:39:53 INFO  no build target: using presentation compiler with only scala-library
+Nov 27, 2020 1:39:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+2020.11.27 01:39:53 WARN  no build target for: I:\scala-workplace\esl-interview\build.sbt
+Nov 27, 2020 1:39:53 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2020.11.27 01:40:51 ERROR Timeout waiting for 'build/initialize' response
+2020.11.27 01:40:51 WARN  Retrying connection to the build server sbt
+2020.11.27 01:40:51 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 01:40:51 INFO  time: connected to build server in 1m2s
+2020.11.27 01:40:51 INFO  Connected to Build server v1.4.4
+2020.11.27 01:40:52 INFO  Processing
+2020.11.27 01:40:52 WARN  
+	Note: Unresolved dependencies path:
+2020.11.27 01:40:52 ERROR sbt.librarymanagement.ResolveException: Error downloading com.twitter:finchx-circe_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.12/20.10.0/finchx-circe_2.12-20.10.0.pom
+Error downloading com.twitter:finchx-core_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.12/20.10.0/finchx-core_2.12-20.10.0.pom
+Error downloading io.circe:circe-generic_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/20.10.0/circe-generic_2.12-20.10.0.pom
+Error downloading io.circe:circe-core_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.12/20.10.0/circe-core_2.12-20.10.0.pom
+Error downloading io.circe:circe-parser_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/20.10.0/circe-parser_2.12-20.10.0.pom
+	at lmcoursier.CoursierDependencyResolution.unresolvedWarningOrThrow(CoursierDependencyResolution.scala:258)
+	at lmcoursier.CoursierDependencyResolution.$anonfun$update$38(CoursierDependencyResolution.scala:227)
+	at scala.util.Either$LeftProjection.map(Either.scala:573)
+	at lmcoursier.CoursierDependencyResolution.update(CoursierDependencyResolution.scala:227)
+	at sbt.librarymanagement.DependencyResolution.update(DependencyResolution.scala:60)
+	at sbt.internal.LibraryManagement$.resolve$1(LibraryManagement.scala:53)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$12(LibraryManagement.scala:103)
+	at sbt.util.Tracked$.$anonfun$lastOutput$1(Tracked.scala:73)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$20(LibraryManagement.scala:116)
+	at scala.util.control.Exception$Catch.apply(Exception.scala:228)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11(LibraryManagement.scala:116)
+	at sbt.internal.LibraryManagement$.$anonfun$cachedUpdate$11$adapted(LibraryManagement.scala:97)
+	at sbt.util.Tracked$.$anonfun$inputChangedW$1(Tracked.scala:219)
+	at sbt.internal.LibraryManagement$.cachedUpdate(LibraryManagement.scala:130)
+	at sbt.Classpaths$.$anonfun$updateTask0$5(Defaults.scala:3485)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.11.27 01:40:52 ERROR ([31mupdate[0m) sbt.librarymanagement.ResolveException: Error downloading com.twitter:finchx-circe_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-circe_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-circe_2.12/20.10.0/finchx-circe_2.12-20.10.0.pom
+Error downloading com.twitter:finchx-core_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\com.twitter\finchx-core_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/com/twitter/finchx-core_2.12/20.10.0/finchx-core_2.12-20.10.0.pom
+Error downloading io.circe:circe-generic_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-generic_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-generic_2.12/20.10.0/circe-generic_2.12-20.10.0.pom
+Error downloading io.circe:circe-core_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-core_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-core_2.12/20.10.0/circe-core_2.12-20.10.0.pom
+Error downloading io.circe:circe-parser_2.12:20.10.0
+  Not found
+  Not found
+  not found: C:\Users\Coco\.ivy2\local\io.circe\circe-parser_2.12\20.10.0\ivys\ivy.xml
+  not found: https://repo1.maven.org/maven2/io/circe/circe-parser_2.12/20.10.0/circe-parser_2.12-20.10.0.pom
+2020.11.27 01:40:52 INFO  Processing
+2020.11.27 01:40:53 INFO  Disconnecting from sbt session...
+2020.11.27 01:40:53 ERROR Failed to connect with build server, no functionality will work.
+java.lang.NullPointerException
+	at scala.meta.internal.metals.MetalsEnrichments$XtensionJavaList.map(MetalsEnrichments.scala:199)
+	at scala.meta.internal.metals.MetalsLanguageServer$.$anonfun$importedBuild$1(MetalsLanguageServer.scala:2460)
+	at scala.util.Success.$anonfun$map$1(Try.scala:255)
+	at scala.util.Success.map(Try.scala:213)
+	at scala.concurrent.Future.$anonfun$map$1(Future.scala:292)
+	at scala.concurrent.impl.Promise.liftedTree1$1(Promise.scala:33)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.27 01:40:53 INFO  Shut down connection with build server.
+2020.11.27 01:41:46 WARN  no build target for: I:\scala-workplace\esl-interview\build.sbt
+2020.11.27 01:42:01 WARN  code navigation does not work for the file 'I:\scala-workplace\esl-interview\build.sbt' because it doesn't belong to a build target.
+2020.11.27 01:42:03 WARN  no build target for: I:\scala-workplace\esl-interview\build.sbt
+2020.11.27 01:42:03 INFO  skipping build import with status 'Dismissed'
+2020.11.27 01:53:17 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\services\services.ExampleService.scala
+2020.11.27 01:53:17 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala
+2020.11.27 01:54:29 INFO  shutting down Metals
+2020.11.27 02:09:56 INFO  Started: Metals version 0.9.7 in workspace 'I:\scala-workplace\esl-interview' for client vscode.
+2020.11.27 02:09:57 INFO  time: initialize in 0.49s
+2020.11.27 02:09:58 INFO  Attempting to connect to the build server...
+2020.11.27 02:09:58 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala
+2020.11.27 02:09:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 02:10:01 INFO  no build target: using presentation compiler with only scala-library
+2020.11.27 02:10:42 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\models\Message.scala
+2020.11.27 02:10:44 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala
+2020.11.27 02:10:46 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala
+2020.11.27 02:10:58 ERROR Timeout waiting for 'build/initialize' response
+2020.11.27 02:10:58 WARN  Retrying connection to the build server sbt
+2020.11.27 02:10:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 02:10:59 INFO  time: connected to build server in 1m2s
+2020.11.27 02:10:59 INFO  Connected to Build server v1.4.4
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:00 INFO  Processing
+2020.11.27 02:11:01 INFO  Processing
+2020.11.27 02:11:01 INFO  time: imported build in 1.43s
+2020.11.27 02:11:05 INFO  time: indexed workspace in 4.05s
+2020.11.27 02:11:05 INFO  Processing
+2020.11.27 02:11:05 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:05 INFO  compiling esl-interview
+2020.11.27 02:11:05 INFO  compiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:11:05 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:38: type mismatch;
+ found   : String("hello")
+ required: ?{def apply: ?}
+Note that implicit conversions are not applicable because they are ambiguous:
+ both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps
+ and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]
+ are possible conversion functions from String("hello") to ?{def apply: ?}
+2020.11.27 02:11:05 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:05 ERROR                                      ^
+2020.11.27 02:11:05 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:34: not found: value get
+2020.11.27 02:11:05 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:05 ERROR                                  ^
+2020.11.27 02:11:05 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:8:28: not found: type Message
+2020.11.27 02:11:05 ERROR   def getMessage(): Future[Message] = {
+2020.11.27 02:11:05 ERROR                            ^
+2020.11.27 02:11:05 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:26:5: not found: value log
+2020.11.27 02:11:05 ERROR     log.info(s"Serving the application on port ${port()}")
+2020.11.27 02:11:05 ERROR     ^
+2020.11.27 02:11:05 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:6:17: not found: value Message
+2020.11.27 02:11:05 ERROR   val message = Message("Hello, world!")
+2020.11.27 02:11:05 ERROR                 ^
+2020.11.27 02:11:05 ERROR 5 errors found
+2020.11.27 02:11:05 INFO  time: compiled esl-interview in 0.82s
+2020.11.27 02:11:05 ERROR (Compile / [31mcompileIncremental[0m) Compilation failed
+2020.11.27 02:11:05 INFO  Processing
+2020.11.27 02:11:05 INFO  Processing
+2020.11.27 02:11:06 INFO  compiling esl-interview
+2020.11.27 02:11:06 INFO  compiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:11:06 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:38: type mismatch;
+ found   : String("hello")
+ required: ?{def apply: ?}
+Note that implicit conversions are not applicable because they are ambiguous:
+ both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps
+ and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]
+ are possible conversion functions from String("hello") to ?{def apply: ?}
+2020.11.27 02:11:06 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:06 ERROR                                      ^
+2020.11.27 02:11:06 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:34: not found: value get
+2020.11.27 02:11:06 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:06 ERROR                                  ^
+2020.11.27 02:11:06 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:8:28: not found: type Message
+2020.11.27 02:11:06 ERROR   def getMessage(): Future[Message] = {
+2020.11.27 02:11:06 ERROR                            ^
+2020.11.27 02:11:06 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:26:5: not found: value log
+2020.11.27 02:11:06 ERROR     log.info(s"Serving the application on port ${port()}")
+2020.11.27 02:11:06 ERROR     ^
+2020.11.27 02:11:07 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:6:17: not found: value Message
+2020.11.27 02:11:07 ERROR   val message = Message("Hello, world!")
+2020.11.27 02:11:07 ERROR                 ^
+2020.11.27 02:11:07 ERROR 5 errors found
+2020.11.27 02:11:07 INFO  time: compiled esl-interview in 1.12s
+2020.11.27 02:11:07 ERROR (Compile / [31mcompileIncremental[0m) Compilation failed
+2020.11.27 02:11:07 INFO  Processing
+2020.11.27 02:11:07 INFO  Processing
+2020.11.27 02:11:07 INFO  compiling esl-interview
+2020.11.27 02:11:07 INFO  compiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:11:08 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:38: type mismatch;
+ found   : String("hello")
+ required: ?{def apply: ?}
+Note that implicit conversions are not applicable because they are ambiguous:
+ both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps
+ and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]
+ are possible conversion functions from String("hello") to ?{def apply: ?}
+2020.11.27 02:11:08 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:08 ERROR                                      ^
+2020.11.27 02:11:08 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:34: not found: value get
+2020.11.27 02:11:08 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:08 ERROR                                  ^
+2020.11.27 02:11:08 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:8:28: not found: type Message
+2020.11.27 02:11:08 ERROR   def getMessage(): Future[Message] = {
+2020.11.27 02:11:08 ERROR                            ^
+2020.11.27 02:11:08 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:26:5: not found: value log
+2020.11.27 02:11:08 ERROR     log.info(s"Serving the application on port ${port()}")
+2020.11.27 02:11:08 ERROR     ^
+2020.11.27 02:11:08 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:6:17: not found: value Message
+2020.11.27 02:11:08 ERROR   val message = Message("Hello, world!")
+2020.11.27 02:11:08 ERROR                 ^
+2020.11.27 02:11:08 ERROR 5 errors found
+2020.11.27 02:11:08 INFO  time: compiled esl-interview in 1.24s
+2020.11.27 02:11:08 INFO  Processing
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:08 INFO  Processing
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 WARN  unsupported Scala 2.11.0
+2020.11.27 02:11:09 INFO  compiling esl-interview
+2020.11.27 02:11:09 INFO  compiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:11:09 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:38: type mismatch;
+ found   : String("hello")
+ required: ?{def apply: ?}
+Note that implicit conversions are not applicable because they are ambiguous:
+ both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps
+ and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]
+ are possible conversion functions from String("hello") to ?{def apply: ?}
+2020.11.27 02:11:09 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:09 ERROR                                      ^
+2020.11.27 02:11:09 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:34: not found: value get
+2020.11.27 02:11:09 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:09 ERROR                                  ^
+2020.11.27 02:11:09 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:8:28: not found: type Message
+2020.11.27 02:11:09 ERROR   def getMessage(): Future[Message] = {
+2020.11.27 02:11:09 ERROR                            ^
+2020.11.27 02:11:09 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:26:5: not found: value log
+2020.11.27 02:11:09 ERROR     log.info(s"Serving the application on port ${port()}")
+2020.11.27 02:11:09 ERROR     ^
+2020.11.27 02:11:10 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:6:17: not found: value Message
+2020.11.27 02:11:10 ERROR   val message = Message("Hello, world!")
+2020.11.27 02:11:10 ERROR                 ^
+2020.11.27 02:11:10 ERROR 5 errors found
+2020.11.27 02:11:10 INFO  time: compiled esl-interview in 1.05s
+2020.11.27 02:11:10 ERROR (Compile / [31mcompileIncremental[0m) Compilation failed
+2020.11.27 02:11:10 INFO  Processing
+2020.11.27 02:11:10 INFO  Processing
+2020.11.27 02:11:10 INFO  compiling esl-interview
+2020.11.27 02:11:10 INFO  compiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:11:10 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:38: type mismatch;
+ found   : String("hello")
+ required: ?{def apply: ?}
+Note that implicit conversions are not applicable because they are ambiguous:
+ both method augmentString in object Predef of type (x: String)scala.collection.immutable.StringOps
+ and method stringToPath in trait Paths of type (s: String)io.finch.Endpoint[shapeless.HNil]
+ are possible conversion functions from String("hello") to ?{def apply: ?}
+2020.11.27 02:11:10 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:10 ERROR                                      ^
+2020.11.27 02:11:10 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:17:34: not found: value get
+2020.11.27 02:11:10 ERROR   def hello: Endpoint[Message] = get("hello") {
+2020.11.27 02:11:10 ERROR                                  ^
+2020.11.27 02:11:10 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:8:28: not found: type Message
+2020.11.27 02:11:10 ERROR   def getMessage(): Future[Message] = {
+2020.11.27 02:11:10 ERROR                            ^
+2020.11.27 02:11:10 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:26:5: not found: value log
+2020.11.27 02:11:10 ERROR     log.info(s"Serving the application on port ${port()}")
+2020.11.27 02:11:10 ERROR     ^
+2020.11.27 02:11:10 ERROR I:\scala-workplace\esl-interview\src\main\scala\services\ExampleService.scala:6:17: not found: value Message
+2020.11.27 02:11:10 ERROR   val message = Message("Hello, world!")
+2020.11.27 02:11:10 ERROR                 ^
+2020.11.27 02:11:10 ERROR 5 errors found
+2020.11.27 02:11:10 INFO  time: compiled esl-interview in 0.59s
+2020.11.27 02:11:10 ERROR (Compile / [31mcompileIncremental[0m) Compilation failed
+2020.11.27 02:11:10 INFO  Processing
+2020.11.27 02:14:05 WARN  unsupported Scala 2.11.0
+2020.11.27 02:14:05 WARN  unsupported Scala 2.11.0
+2020.11.27 02:14:23 WARN  unsupported Scala 2.11.0
+2020.11.27 02:14:31 INFO  shutting down Metals
+2020.11.27 02:14:31 INFO  Shut down connection with build server.
+2020.11.27 02:29:44 INFO  Started: Metals version 0.9.7 in workspace 'I:\scala-workplace\esl-interview' for client vscode.
+2020.11.27 02:29:44 INFO  time: initialize in 0.43s
+2020.11.27 02:29:45 INFO  Attempting to connect to the build server...
+2020.11.27 02:29:45 WARN  no build target for: I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala
+2020.11.27 02:29:45 WARN  no build target for: I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\ExampleApplication.scala
+2020.11.27 02:29:44 INFO  skipping build import with status 'Requested'
+2020.11.27 02:29:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 02:29:47 INFO  time: connected to build server in 2.25s
+2020.11.27 02:29:47 INFO  Connected to Build server v1.4.4
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:47 INFO  Processing
+2020.11.27 02:29:49 INFO  no build target: using presentation compiler with only scala-library
+2020.11.27 02:29:49 INFO  time: imported build in 1.78s
+2020.11.27 02:29:49 INFO  Processing
+2020.11.27 02:29:49 WARN  no build target for: I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\Main.scala
+2020.11.27 02:29:52 INFO  time: indexed workspace in 2.68s
+2020.11.27 02:29:52 INFO  Processing
+2020.11.27 02:29:52 WARN  no build target for: I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\Main.scala
+2020.11.27 02:29:52 WARN  no build target for: I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\ExampleApplication.scala
+2020.11.27 02:29:52 WARN  unsupported Scala 2.11.0
+2020.11.27 02:29:52 INFO  compiling esl-interview
+2020.11.27 02:29:52 INFO  time: compiled esl-interview in 0.13s
+2020.11.27 02:29:52 INFO  compiling esl-interview-test
+2020.11.27 02:29:52 INFO  time: compiled esl-interview-test in 61ms
+2020.11.27 02:29:53 INFO  Processing
+2020.11.27 02:29:53 INFO  Processing
+2020.11.27 02:29:53 INFO  compiling esl-interview
+2020.11.27 02:29:53 INFO  time: compiled esl-interview in 53ms
+2020.11.27 02:29:53 INFO  compiling esl-interview-test
+2020.11.27 02:29:53 INFO  time: compiled esl-interview-test in 22ms
+2020.11.27 02:29:53 INFO  Processing
+2020.11.27 02:29:53 INFO  Processing
+2020.11.27 02:29:53 INFO  compiling esl-interview
+2020.11.27 02:29:53 INFO  time: compiled esl-interview in 60ms
+2020.11.27 02:29:53 INFO  compiling esl-interview-test
+2020.11.27 02:29:53 INFO  time: compiled esl-interview-test in 15ms
+2020.11.27 02:29:53 WARN  unsupported Scala 2.11.0
+2020.11.27 02:29:53 WARN  unsupported Scala 2.11.0
+2020.11.27 02:29:53 INFO  Processing
+2020.11.27 02:29:53 INFO  Processing
+2020.11.27 02:29:53 INFO  compiling esl-interview
+2020.11.27 02:29:53 INFO  time: compiled esl-interview in 51ms
+2020.11.27 02:29:53 INFO  compiling esl-interview-test
+2020.11.27 02:29:53 INFO  time: compiled esl-interview-test in 20ms
+2020.11.27 02:29:54 INFO  Processing
+2020.11.27 02:29:54 INFO  Processing
+2020.11.27 02:29:54 INFO  compiling esl-interview
+2020.11.27 02:29:54 INFO  time: compiled esl-interview in 36ms
+2020.11.27 02:29:54 INFO  compiling esl-interview-test
+2020.11.27 02:29:54 INFO  time: compiled esl-interview-test in 14ms
+2020.11.27 02:29:54 INFO  Processing
+2020.11.27 02:30:13 INFO  compiling esl-interview
+2020.11.27 02:30:13 INFO  compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:30:14 WARN  unsupported Scala 2.11.0
+2020.11.27 02:30:15 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:41:15: not found: type Service
+2020.11.27 02:30:15 ERROR   val client: Service[Request, Response] =
+2020.11.27 02:30:15 ERROR               ^
+2020.11.27 02:30:15 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:44:17: not found: value http
+2020.11.27 02:30:15 ERROR   val request = http.Request(http.Method.Get, "api.eslgaming.com/play/v1/leagues/216337/ranking")
+2020.11.27 02:30:15 ERROR                 ^
+2020.11.27 02:30:15 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:44:30: not found: value http
+2020.11.27 02:30:15 ERROR   val request = http.Request(http.Method.Get, "api.eslgaming.com/play/v1/leagues/216337/ranking")
+2020.11.27 02:30:15 ERROR                              ^
+2020.11.27 02:30:15 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:46:17: not found: type Future
+2020.11.27 02:30:15 ERROR   val response: Future[http.Response] = client(request)
+2020.11.27 02:30:15 ERROR                 ^
+2020.11.27 02:30:15 ERROR four errors found
+2020.11.27 02:30:15 INFO  time: compiled esl-interview in 2.11s
+2020.11.27 02:30:15 ERROR (Compile / compileIncremental) Compilation failed
+2020.11.27 02:30:20 WARN  unsupported Scala 2.11.0
+2020.11.27 02:30:30 INFO  compiling esl-interview
+2020.11.27 02:30:30 INFO  compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:30:30 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:41:15: not found: type Service
+2020.11.27 02:30:30 ERROR   val client: Service[Request, Response] =
+2020.11.27 02:30:30 ERROR               ^
+2020.11.27 02:30:30 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:44:17: not found: value http
+2020.11.27 02:30:30 ERROR   val request = http.Request(http.Method.Get, "api.eslgaming.com/play/v1/leagues/216337/ranking")
+2020.11.27 02:30:30 ERROR                 ^
+2020.11.27 02:30:30 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:44:30: not found: value http
+2020.11.27 02:30:30 ERROR   val request = http.Request(http.Method.Get, "api.eslgaming.com/play/v1/leagues/216337/ranking")
+2020.11.27 02:30:30 ERROR                              ^
+2020.11.27 02:30:30 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:46:17: not found: type Future
+2020.11.27 02:30:30 ERROR   val response: Future[http.Response] = client(request)
+2020.11.27 02:30:30 ERROR                 ^
+2020.11.27 02:30:30 ERROR four errors found
+2020.11.27 02:30:30 INFO  time: compiled esl-interview in 0.3s
+2020.11.27 02:30:30 ERROR (Compile / compileIncremental) Compilation failed
+2020.11.27 02:30:31 WARN  unsupported Scala 2.11.0
+2020.11.27 02:30:34 WARN  unsupported Scala 2.11.0
+2020.11.27 02:30:44 INFO  compiling esl-interview
+2020.11.27 02:30:44 INFO  compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:30:44 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:41:15: not found: type Service
+2020.11.27 02:30:44 ERROR   val client: Service[Request, Response] =
+2020.11.27 02:30:44 ERROR               ^
+2020.11.27 02:30:44 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:44:17: not found: value http
+2020.11.27 02:30:44 ERROR   val request = http.Request(http.Method.Get, "api.eslgaming.com/play/v1/leagues/216337/ranking")
+2020.11.27 02:30:44 ERROR                 ^
+2020.11.27 02:30:44 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:44:30: not found: value http
+2020.11.27 02:30:44 ERROR   val request = http.Request(http.Method.Get, "api.eslgaming.com/play/v1/leagues/216337/ranking")
+2020.11.27 02:30:44 ERROR                              ^
+2020.11.27 02:30:44 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:46:17: not found: type Future
+2020.11.27 02:30:44 ERROR   val response: Future[http.Response] = client(request)
+2020.11.27 02:30:44 ERROR                 ^
+2020.11.27 02:30:44 ERROR four errors found
+2020.11.27 02:30:44 INFO  time: compiled esl-interview in 0.32s
+2020.11.27 02:30:44 ERROR (Compile / compileIncremental) Compilation failed
+2020.11.27 02:30:45 WARN  unsupported Scala 2.11.0
+2020.11.27 02:30:47 WARN  unsupported Scala 2.11.0
+2020.11.27 02:30:51 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:24 INFO  compiling esl-interview
+2020.11.27 02:31:24 INFO  compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:31:25 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:24 ERROR I:\scala-workplace\esl-interview\src\main\scala\ExampleApplication.scala:48:17: not found: type Future
+2020.11.27 02:31:24 ERROR   val response: Future[http.Response] = client(request)
+2020.11.27 02:31:24 ERROR                 ^
+2020.11.27 02:31:24 ERROR one error found
+2020.11.27 02:31:24 INFO  time: compiled esl-interview in 0.49s
+2020.11.27 02:31:24 ERROR (Compile / compileIncremental) Compilation failed
+2020.11.27 02:31:26 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:38 INFO  compiling esl-interview
+2020.11.27 02:31:38 INFO  compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:31:38 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:40 INFO  done compiling
+2020.11.27 02:31:40 INFO  time: compiled esl-interview in 1.44s
+2020.11.27 02:31:40 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:40 ERROR java.lang.RuntimeException: No main class detected.
+	at scala.sys.package$.error(package.scala:30)
+	at sbt.Defaults$.$anonfun$bgRunTask$4(Defaults.scala:1816)
+	at scala.Option.getOrElse(Option.scala:189)
+	at sbt.Defaults$.$anonfun$bgRunTask$3(Defaults.scala:1816)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.11.27 02:31:40 ERROR (Compile / bgRun) No main class detected.
+2020.11.27 02:31:44 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:45 WARN  code navigation does not work for the file 'I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\Main.scala' because it doesn't belong to a build target.
+2020.11.27 02:31:48 INFO  compiling esl-interview
+2020.11.27 02:31:48 INFO  compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+2020.11.27 02:31:49 WARN  unsupported Scala 2.11.0
+2020.11.27 02:31:48 INFO  done compiling
+2020.11.27 02:31:48 INFO  time: compiled esl-interview in 0.95s
+2020.11.27 02:31:49 ERROR java.lang.RuntimeException: No main class detected.
+	at scala.sys.package$.error(package.scala:30)
+	at sbt.Defaults$.$anonfun$bgRunTask$4(Defaults.scala:1816)
+	at scala.Option.getOrElse(Option.scala:189)
+	at sbt.Defaults$.$anonfun$bgRunTask$3(Defaults.scala:1816)
+	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+	at sbt.Execute.work(Execute.scala:291)
+	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.11.27 02:31:49 ERROR (Compile / bgRun) No main class detected.
+2020.11.27 02:31:49 WARN  unsupported Scala 2.11.0
+2020.11.27 02:33:20 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Coco\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2020.11.27 02:33:29 INFO  Connected to Build server v1.4.4
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:29 INFO  Processing
+2020.11.27 02:33:30 INFO  time: imported build in 0.97s
+2020.11.27 02:33:30 INFO  time: indexed workspace in 0.93s
+2020.11.27 02:33:31 WARN  no build target for: I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\Main.scala
+2020.11.27 02:33:31 WARN  no build target for: I:\scala-workplace\esl-api-ranking\src\main\scala\com\eslapplication\eslapiranking\ExampleApplication.scala
+2020.11.27 02:33:30 WARN  unsupported Scala 2.11.0
+2020.11.27 02:33:31 INFO  Processing
+2020.11.27 02:33:31 INFO  compiling esl-interview
+2020.11.27 02:33:31 INFO  time: compiled esl-interview in 0.36s
+2020.11.27 02:33:31 INFO  compiling esl-interview-test
+2020.11.27 02:33:31 INFO  time: compiled esl-interview-test in 27ms
+2020.11.27 02:33:31 INFO  Processing
+2020.11.27 02:33:31 INFO  Processing
+2020.11.27 02:33:31 INFO  compiling esl-interview
+2020.11.27 02:33:31 INFO  time: compiled esl-interview in 49ms
+2020.11.27 02:33:31 INFO  compiling esl-interview-test
+2020.11.27 02:33:31 INFO  time: compiled esl-interview-test in 13ms
+2020.11.27 02:33:32 INFO  Processing

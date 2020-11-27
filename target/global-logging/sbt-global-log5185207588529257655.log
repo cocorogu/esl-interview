@@ -1,0 +1,43 @@
+[debug] > Exec(__runWatch console0, Some(72fd755c-99d9-4d3e-8a2d-0cc9b88c4e8c), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskStart, {"taskId":{"id":"18","parents":[]},"eventTime":1606437108705,"message":"Compiling esl-interview","dataKind":"compile-task","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"}}})
+[info] compiling 1 Scala source to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"compiling 1 Scala source to I:\\scala-workplace\\esl-interview\\target\\scala-2.11\\classes ..."})
+[info] done compiling
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":3,"message":"done compiling"})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/models/Message.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/services/ExampleService.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/publishDiagnostics, {"textDocument":{"uri":"file:///I:/scala-workplace/esl-interview/src/main/scala/ExampleApplication.scala"},"buildTarget":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"diagnostics":[],"reset":true})
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/taskFinish, {"taskId":{"id":"18","parents":[]},"eventTime":1606437109654,"message":"Compiled esl-interview","status":1,"dataKind":"compile-report","data":{"target":{"uri":"file:/I:/scala-workplace/esl-interview/#esl-interview/Compile"},"errors":0,"warnings":0,"time":949}})
+[error] java.lang.RuntimeException: No main class detected.
+[error] 	at scala.sys.package$.error(package.scala:30)
+[error] 	at sbt.Defaults$.$anonfun$bgRunTask$4(Defaults.scala:1816)
+[error] 	at scala.Option.getOrElse(Option.scala:189)
+[error] 	at sbt.Defaults$.$anonfun$bgRunTask$3(Defaults.scala:1816)
+[error] 	at scala.Function1.$anonfun$compose$1(Function1.scala:49)
+[error] 	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)
+[error] 	at sbt.std.Transform$$anon$4.work(Transform.scala:68)
+[error] 	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)
+[error] 	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)
+[error] 	at sbt.Execute.work(Execute.scala:291)
+[error] 	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)
+[error] 	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)
+[error] 	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+[error] 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+[error] 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+[error] 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+[error] 	at java.lang.Thread.run(Thread.java:748)
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"java.lang.RuntimeException: No main class detected.\r\n\tat scala.sys.package$.error(package.scala:30)\r\n\tat sbt.Defaults$.$anonfun$bgRunTask$4(Defaults.scala:1816)\r\n\tat scala.Option.getOrElse(Option.scala:189)\r\n\tat sbt.Defaults$.$anonfun$bgRunTask$3(Defaults.scala:1816)\r\n\tat scala.Function1.$anonfun$compose$1(Function1.scala:49)\r\n\tat sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)\r\n\tat sbt.std.Transform$$anon$4.work(Transform.scala:68)\r\n\tat sbt.Execute.$anonfun$submit$2(Execute.scala:282)\r\n\tat sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)\r\n\tat sbt.Execute.work(Execute.scala:291)\r\n\tat sbt.Execute.$anonfun$submit$1(Execute.scala:282)\r\n\tat sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)\r\n\tat sbt.CompletionService$$anon$2.call(CompletionService.scala:64)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)\r\n\tat java.lang.Thread.run(Thread.java:748)"})
+[error] (Compile / bgRun) No main class detected.
+[debug] jsonRpcNotify: JsonRpcNotificationMessage(2.0, build/logMessage, {"type":1,"message":"(Compile / bgRun) No main class detected."})
+[error] Total time: 1 s, completed Nov 27, 2020 2:31:49 AM
+[debug] > Exec(resumeFromFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__postWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(__waitWatch console0, None, Some(CommandSource(console0)))

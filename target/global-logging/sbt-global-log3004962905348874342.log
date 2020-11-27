@@ -1,0 +1,6 @@
+[debug] > Exec(update, None, None)
+[debug] Evaluating tasks: update
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[success] Total time: 4 s, completed Nov 27, 2020 3:12:19 AM
+[debug] > Exec(idea-shell, None, None)

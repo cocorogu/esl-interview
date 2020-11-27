@@ -1,0 +1,15 @@
+[debug] > Exec(__runWatch console0, Some(01546766-41d8-44b8-8e94-b380188f0be2), Some(CommandSource(console0)))
+[debug] > Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__preWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(run, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Compile / run
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] compiling 3 Scala sources to I:\scala-workplace\esl-interview\target\scala-2.11\classes ...
+[info] Non-compiled module 'compiler-bridge_2.11' for Scala 2.11.0. Compiling...
+[info] Attempting to fetch org.scala-sbt:compiler-bridge_2.11:1.4.3.
+[error] (Compile / compileIncremental) Error compiling the sbt component 'compiler-bridge_2.11'
+[error] Total time: 0 s, completed Nov 27, 2020, 1:47:17 AM
+[debug] > Exec(resumeFromFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))
+[debug] > Exec(__postWatch console0, None, Some(CommandSource(console0)))
+[debug] > Exec(__waitWatch console0, None, Some(CommandSource(console0)))
